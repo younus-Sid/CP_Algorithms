@@ -28,18 +28,18 @@
           B   0   _   _   _                
            
   Step2: Filling the table
-         1) If the current cell's row and column character match,
-            then current cell value = {max(previous row, previous column) + 1} and point it diagonally↖️.
-            ex. for {1, 2}
+         1) If the current cell(i, j) has same row and column name,
+            then current cell value = {cell(i-1, j-1) + 1} and point it diagonally↖️.
+            ex. for cell(1, 2)
                 row = A, column = A
-                valueAt(1,2) = max(valueAt(0,2), valueAt(1,1)) + 1
-                             = max(0, 0) + 1 = 1
-         2) If the current cell's row and column character do not match,
-            then current cell value = {max(previous row, previous column)} and point it upward⬆️ if(previous row > previous column) else point it left⬅️.
-            ex. for {1, 1}
+                valueAt(1, 2) = valueAt(0, 1) + 1
+                              = 0 + 1 = 1
+         2) If the current cell(i, j) does not have same row and column name,
+            then current cell value = {max(cell(i, j-1), cell(i-1, j)} and point it upward⬆️ if(valueAt(i, j-1) < valueAt(i-1, j)) else point it left⬅️.
+            ex. for cell(1, 1)
                 row = A, column = D
-                valueAt(1,1) = max(valueAt(0,1), valueAt(1,0))
-                             = max(0, 0) = 0
+                valueAt(1, 1) = max(valueAt(1, 0), valueAt(0, 1))
+                              = max(0, 0) = 0
                      D      A      C
               0      0      0      0
           A   0    0⬆️   1↖️    0⬆️
