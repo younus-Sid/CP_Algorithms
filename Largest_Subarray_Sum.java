@@ -1,6 +1,6 @@
 /*******************************************************
 
-Kadane's algorithm for largest or maximum subarray sum. 
+Kadane's Algorithm for largest or maximum subarray sum. 
 
 ********************************************************/
 
