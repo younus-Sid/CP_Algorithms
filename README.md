@@ -7,7 +7,7 @@
 **Codeforces: https://codeforces.com/problemset**<br>
 **Codechef: https://www.codechef.com/practice?page=0&limit=20&sort_by=difficulty_rating&sort_order=asc&search=&start_rating=0&end_rating=999&topic=&tags=&group=all**
 
-## Notes
+## Notes:-
 1) **Subarray and Subsequence**\
    A **subarray** is a contiguous part of array. An array that is inside another array.\
    For example, consider the array [1, 2, 3, 4], there are 10 non-empty sub-arrays. The subarrays are (1), (2), (3), (4), (1, 2), (2, 3), (3, 4), (1, 2, 3), (2, 3, 4) and (1, 2, 3, 4). 
