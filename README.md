@@ -1,5 +1,5 @@
 # Competitive Programming Algorithms
-**Get to know about various algorithms used in Competitive Programming to increase your problem solving ability.**
+**Here you can know about various algorithms used in Competitive Programming to increase your problem solving ability.**
 
 ## Solve problems here:-
 **Leetcode: https://leetcode.com/problemset/all/**<br>
